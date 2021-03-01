@@ -1,0 +1,51 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.title {
+    font-size: 2rem;
+    text-align: center;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+td, th {
+    border: 1px solid gray;
+    text-align: center;
+    padding:  5px;
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+input[type='button'] {
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    width: 4rem;
+    height: 2rem;
+}
+input[type='button']:focus {
+    outline: none;
+}
+input[type='text'], select 
+        {
+            text-align: center;
+            border: solid 1px #CCC;
+            width: auto;
+            padding: 2px 3px;
+        }
+#search-bar {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 50%;
+    margin-left: 22rem;
+    margin-right: auto;
+    text-align: center;
+    height: 3rem;
+    font-size: 1.5rem;
+}
+#booksTable {
+    box-shadow: 0 0 40px 0px rgba(0, 0, 0, 0.3);
+}
